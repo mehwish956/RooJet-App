@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+
+  <!--CSS -->
+  <link rel="icon" href="images/Group 856.png" type="image/png" sizes="200x200">
+  <title>Roojet App</title>
+
+  <!--bootsrap-->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="js/jquery.min.js">
+  <link rel="stylesheet" href="js/bootstrap.min.js">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!--fontawsome-->
+  <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome/webfonts//fa-solid-900.eot">
+  <link rel="stylesheet" href="css/themify-icons/themify-icons.css">
+  <!--css-->
+  <link type="text/css" rel="stylesheet" href="css/all.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#myModal").modal('show');
+    });
+  </script>
+  <style>
+    .bs-example {
+      margin: 30rem;
+    }
+
+
+
+    .fetch {
+      margin-top: 3rem;
+      color: #fff;
+      background-color: blue;
+      border-color: none;
+      border: none;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 1rem 3rem 1rem 3rem;
+      border-radius: 10px;
+    }
+
+    .back {
+      color: #1A75FF;
+      font-size: 20px;
+    }
+
+    .ti-arrow-left {
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 7px;
+      margin-right: 5px;
+    }
+
+    .modal-content {
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <div class="bs-example">
+    <!-- Button HTML (to Trigger Modal) -->
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" style="border-bottom: none;">
+            <button type="button" class="close" data-dismiss="modal" style="font-size: 4rem;">&times;</button>
+          </div>
+          <div class="modal-body text-center justify-content-center" style="padding: 1rem 5rem 5rem 5rem;">
+            <h1 class="welcome text-center" style="margin-left: 7rem;">Create New Test</h1>
+            <div class="formfield" id="firstnamefield" style="margin-top: 4rem;">
+              <input type="text" name="Test Name" id="Test Name" required style="padding: 2.25rem;">
+              <label alt="Test Name" for="Test Name" placeholder="Test Name" style="font-size: 2rem;">Test Name</label>
+            </div>
+            <div class="row align-items-center justify-content-between text-center">
+              <!--BACK-->
+              <a href="roojetappversionpages3.html" class="mt-5">
+                <div class="d-flex font-weight-bold ">
+                  <span class="ti-arrow-left"></span>
+                  <p class="back">back</p>
+                </div>
+              </a>
+              <!--NEXT-->
+              <a href="roojetappversionpages5.html">
+                <div class="button justify-content-end justify-content-center justify-content-sm-start mt-sm-0">
+                  <button type="button" class="btn fetch primary">Create Test</button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="At-Wrapper">
+    <!--AT HEADER-->
+    <header id="header" class="At-Header">
+      <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <a class="navbar-brand mr-0" href="index.html" style="width: 298px;">
+          <img src="images/image (2) 2.png" class="img-fluid at-img-logoblack" alt="" style="margin-left: 55px;">
+        </a>
+        <!--COLLAPSE-->
+        <div class="divcollapse">
+        </div>
+      </nav>
+      <!--NAV BAR ENDS-->
+    </header>
+    <!-- header ends -->
+    <div class="page-content">
+      <!--AT SECTION-->
+      <section class="At-SectionMain">
+        <!--AT SIDEBAR-->
+        <aside class="At-Sidebar At-NoScroller">
+          <!--OVERVIEW-->
+          <div class="Overview1 d-flex">
+            <img src="images/app_blocking.png" alt="">
+            <h6 class="Overview mt-0">Overview</h6>
+            <span class="ti-angle-down" style="font-size: 20px; font-weight: 900;">
+            </span>
+          </div>
+          <!--AT SUBLI-->
+          <div class="At-SubLi mt-5" style="background: #F6F8FB; border-radius: 6px; padding: 10px;">
+            <!--TEXTING-->
+            <a class="dropdown-btn d-flex" href="roojetapp.html">
+              <img src="images/Vector2.png" alt="">
+              <h3 class="Overview" style="color: #1A75FF; margin-left: 10px;"> Testing</h3>
+              <span class="ti-angle-down" style="font-size: 20px; font-weight: 900;">
+              </span>
+            </a>
+          </div>
+          <!--AT SUBLI-->
+          <ul class="At-subLi1 mt-5 ml-5 ">
+            <li class="craet-text"> <a href="#">Create a new test</a></li>
+            <li class="craet-text"><a href="#" style="color: #1A75FF;;">All Previous Test</a></li>
+            <li class="craet-text"> <a href="#">Reports</a></li>
+            <li class="craet-text"> <a href="#">Sites</a></li>
+            <li class="craet-text"> <a href="#">Add A Site</a></li>
+            <li class="craet-text"> <a href="#">Add A URL for New Test</a></li>
+          </ul>
+          <h3 class="mt-5" style="color: #CCCEDD; letter-spacing: 2px;"> Applications</h3>
+          <div class="At-SubLi mt-5">
+            <!--ACOUNT BUTTON-->
+            <a class="dropdown-btn d-flex" href="createAcount.html" id="h">
+              <img src="images/Vector1.png" alt="">
+              <h3 class="Overview "> Account</h3>
+              <span class="ti-angle-down" style="font-size: 20px; font-weight: 900; color: #1E2E6F;">
+              </span>
+            </a>
+          </div>
+          <!--Dashboards-->
+          <div class="At-SubLi mt-5">
+            <a class="dropdown-btn d-flex" href="#" id="h">
+              <img src="images/Vector.png" alt="">
+              <h3 class="Overview"> Dashboards</h3>
+              <span class="ti-angle-down" style="font-size: 20px; font-weight: 900;color: #1E2E6F;">
+              </span>
+            </a>
+          </div>
+        </aside>
+        <!-- .At-Sidebar ends -->
+        <!--AT RIGHRPANNEL-->
+        <div class="At-RightPanel">
+          <div class="container-fluid">
+            <div class="At-WelcomeTop">
+              <!--ROW-->
+              <div class="row mt-4">
+                <h1 class="welcome">MyURL.com/Landing1 Versions</h1>
+              </div>
+              <!--ROW-->
+              <div class="row justify-content-between">
+                <p class="analytics">These are your analytics stats for today, <strong> August 2021</strong></p>
+                <div class="form-group col-md-2">
+                  <button type="button" class="begintext">
+                    <a href="roojetapp.html" class="btn begintext1 p-0" style="border-radius: 15px; color:#fff;">Add New
+                      Version</a>
+                  </button>
+                </div>
+              </div>
+              <!--ROW-->
+              <div class="row mt-5">
+                <div class="col-md-6">
+                  <h1 class="welcome mt-5 mb-5">Version 1</h1>
+                  <div class="postholes"></div>
+                  <div class="row mt-4">
+                    <!--UNIQUE-->
+                    <div class="unique">
+                      <p class="showing"
+                        style="margin: 1rem 0rem 0rem 1rem; color: #223354; font-size: 17px; font-weight: 500;">Unique
+                        visitors</p>
+                      <div class="row">
+                        <img src="images/icon1.png" alt="icon">
+                        <h1 class="text-center" style="margin-top: 1rem;font-size: 35px; font-weight: 600;">275</h1>
+                      </div>
+                      <p class="referring ml-2"> <span style="color:#1A75FF;"> referring domains </span>which sent most
+                        traffic.
+                      </p>
+                    </div>
+                    <!--UNIQUE-->
+                    <div class="unique1">
+                      <p class="showing"
+                        style="margin: 1rem 0rem 0rem 1rem; color: #223354; font-size: 17px; font-weight: 500;">
+                        Successful Conversions
+                      </p>
+                      <div class="row">
+                        <img src="images/icon2.png" alt="icon">
+                        <h1 class="text-center" style="margin-top: 1rem;font-size: 35px; font-weight: 600;">19</h1>
+                      </div>
+                      <p class="referring ml-2"> <span style="color:#1A75FF;"> referring domains </span>which sent most
+                        traffic.
+                      </p>
+                    </div>
+                  </div>
+                  <!--ROW ENDS-->
+                  <div class="row mt-4">
+                    <div class="unique">
+                      <p class="showing"
+                        style="margin: 1rem 0rem 0rem 1rem; color: #223354; font-size: 14px; font-weight: 600;">
+                        STATISTICALLY SIGNIFICANT
+                      </p>
+                      <div class="row">
+                        <img src="images/icon3.png" alt="icon">
+                        <h1 class="text-center" style="margin-top: 1rem;font-size: 35px; font-weight: 600;">No</h1>
+                      </div>
+                      <p class="referring ml-2"> <span style="color:#1A75FF;"> referring domains </span>which sent most
+                        traffic.
+                      </p>
+                    </div>
+                    <!--UNIQUE-->
+                    <div class="unique1">
+                      <p class="showing"
+                        style="margin: 1rem 0rem 0rem 1rem; color: #223354; font-size: 17px; font-weight: 500;">
+                        Conversion Rate
+                      </p>
+                      <div class="row">
+                        <img src="images/icon4.png" alt="icon">
+                        <h1 class="text-center" style="margin-top: 1rem;font-size: 35px; font-weight: 600;">12.7%</h1>
+                      </div>
+                      <p class="referring ml-2"> <span style="color:#1A75FF;"> referring domains </span>which sent most
+                        traffic.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--COL 6 ENDS-->
+                <div class="col-md-6">
+                  <h1 class="welcome mt-5 mb-5">Version 2</h1>
+                  <div class="postholes"></div>
+                  <div class="row mt-4">
+                    <!--UNIQUE-->
+                    <div class="unique">
+                      <p class="showing"
+                        style="margin: 1rem 0rem 0rem 1rem; color: #223354; font-size: 17px; font-weight: 500;">Unique
+                        visitors</p>
+                      <div class="row">
+                        <img src="images/icon1.png" alt="icon">
+                        <h1 class="text-center" style="margin-top: 1rem;font-size: 35px; font-weight: 600;">275</h1>
+                      </div>
+                      <p class="referring ml-2"> <span style="color:#1A75FF;"> referring domains </span>which sent
+                        most
+                        traffic.
+                      </p>
+                    </div>
+                    <!--UNIQUE-->
+                    <div class="unique1">
+                      <p class="showing"
+                        style="margin: 1rem 0rem 0rem 1rem; color: #223354; font-size: 17px; font-weight: 500;">
+                        Successful Conversions
+                      </p>
+                      <div class="row">
+                        <img src="images/icon2.png" alt="icon">
+                        <h1 class="text-center" style="margin-top: 1rem;font-size: 35px; font-weight: 600;">19</h1>
+                      </div>
+                      <p class="referring ml-2"> <span style="color:#1A75FF;"> referring domains </span>which sent
+                        most
+                        traffic.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <!--UNIQUE-->
+                    <div class="unique">
+                      <p class="showing"
+                        style="margin: 1rem 0rem 0rem 1rem; color: #223354; font-size: 14px; font-weight: 600;">
+                        STATISTICALLY SIGNIFICANT
+                      </p>
+                      <div class="row">
+                        <img src="images/icon3.png" alt="icon">
+                        <h1 class="text-center" style="margin-top: 1rem;font-size: 35px; font-weight: 600;">YES</h1>
+                      </div>
+                      <p class="referring ml-2"> <span style="color:#1A75FF;"> referring domains </span>which sent
+                        most
+                        traffic.
+                      </p>
+                    </div>
+                    <!--UNIQUE-->
+                    <div class="unique1">
+                      <p class="showing"
+                        style="margin: 1rem 0rem 0rem 1rem; color: #223354; font-size: 17px; font-weight: 500;">
+                        Conversion Rate
+                      </p>
+                      <div class="row">
+                        <img src="images/icon4.png" alt="icon">
+                        <h1 class="text-center" style="margin-top: 1rem;font-size: 35px; font-weight: 600;">12.7%</h1>
+                      </div>
+                      <p class="referring ml-2"> <span style="color:#1A75FF;"> referring domains </span>which sent
+                        most
+                        traffic.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--ROW ENDS-->
+          </div>
+        </div>
+      </section>
+      <!--AT SECTION ENDS-->
+    </div>
+    <!--CONTENT PGAE-->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

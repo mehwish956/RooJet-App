@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+
+  <!--CSS -->
+  <link rel="icon" href="images/Group 856.png" type="image/png" sizes="200x200">
+  <title>Roojet App</title>
+
+  <!--bootsrap-->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="js/jquery.min.js">
+  <link rel="stylesheet" href="js/bootstrap.min.js">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!--fontawsome-->
+  <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome/webfonts//fa-solid-900.eot">
+  <link rel="stylesheet" href="css/themify-icons/themify-icons.css">
+  <!--css-->
+  <link type="text/css" rel="stylesheet" href="css/all.css" />
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+  <div class="At-Wrapper">
+    <!--AT HESDER-->
+    <header id="header" class="At-Header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/image (2) 2.png" class="img-fluid at-img-logoblack" alt="" style="margin-left: 55px;">
+        </a>
+        <!--TOGGLER BUTTON-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--COLLAPSE-->
+        <div class="collapse navbar-collapse shadow-lg1" id="navbarSupportedContent">
+          <ul class="navbar-nav" style="position: relative; left: 61rem;">
+            <li class="nav-item dropdown At-NavIcon mt-4">
+              <!--SEARCH-->
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="ti-search" style="color: #1A75FF;font-size: 25px; font-weight: 800;"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Action</a>
+              </div>
+            </li>
+            <!--NOTIFICATION-->
+            <li class="nav-item dropdown At-LanguageNav"
+              style="background-color: #F5F8FB; border-radius: 10px; width: 50px; height: 50px; margin-top: 10px;">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <figure>
+                  <span class="ti-bell" style="color: #1A75FF;font-size: 25px; font-weight: 800; position: absolute;top: 1rem;
+                  left: 1.25rem;">
+                  </span>
+                </figure>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Notification</a>
+              </div>
+            </li>
+            <!--SETING-->
+            <li class="nav-item dropdown At-NavIcon mt-4">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="ti-settings" style="color: #1A75FF;font-size: 25px; font-weight: 800; "></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="#">Action</a>
+              </div>
+            </li>
+            <!--PROFILE-->
+            <li class="nav-item dropdown At-ProfileNav mt-3">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <figure>
+                  <img src="images/Rectangle 67.png" alt="">
+                </figure>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">My Profile</a>
+                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="#">Logout</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown mt-4">
+              <h3 class="RandyS">Randy S.</h3>
+              <p class="RandyS" style="color: #6E759F;">Lead Developer</p>
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="ti-angle-down" id="angledown"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Lead Developer</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- header ends -->
+    <div class="page-content">
+      <!--At-SectionMain-->
+      <section class="At-SectionMain">
+        <aside class="At-Sidebar At-NoScroller">
+          <div class="Overview1 d-flex">
+            <img src="images/app_blocking.png" alt="">
+            <h6 class="Overview mt-0">Overview</h6>
+            <span class="ti-angle-down" style="font-size: 20px; font-weight: 900;">
+            </span>
+          </div>
+          <div class="At-SubLi mt-5" style="background: #F6F8FB; border-radius: 6px; padding: 10px;">
+            <a class="dropdown-btn d-flex" href="#">
+              <!--TEXTING-->
+              <img src="images/Vector2.png" alt="">
+              <h3 class="Overview" style="color: #1A75FF; margin-left: 10px;"> Testing</h3>
+              <span class="ti-angle-down" style="font-size: 20px; font-weight: 900;">
+              </span>
+            </a>
+          </div>
+          <ul class="At-subLi1 mt-5 ml-5 ">
+            <li class="craet-text"> <a href="#">Create a new test</a></li>
+            <li class="craet-text"><a href="#" style="color: #1A75FF;;">All Previous Test</a></li>
+            <li class="craet-text"> <a href="#">Reports</a></li>
+            <li class="craet-text"> <a href="#">Sites</a></li>
+            <li class="craet-text"> <a href="#">Add A Site</a></li>
+            <li class="craet-text"> <a href="#">Add A URL for New Test</a></li>
+          </ul>
+          <h3 class="mt-5" style="color: #CCCEDD; letter-spacing: 2px;"> Applications</h3>
+          <div class="At-SubLi mt-5">
+            <a class="dropdown-btn d-flex" href="createAcount.html" id="h">
+              <!--ACOUNT-->
+              <img src="images/Vector1.png" alt="">
+              <h3 class="Overview "> Account</h3>
+              <span class="ti-angle-down" style="font-size: 20px; font-weight: 900; color: #1E2E6F;">
+              </span>
+            </a>
+          </div>
+          <!--Dashboards-->
+          <div class="At-SubLi mt-5">
+            <a class="dropdown-btn d-flex" href="#" id="h">
+              <img src="images/Vector.png" alt="">
+              <h3 class="Overview"> Dashboards</h3>
+              <span class="ti-angle-down" style="font-size: 20px; font-weight: 900;color: #1E2E6F;">
+              </span>
+            </a>
+          </div>
+        </aside>
+        <!-- .At-Sidebar ends -->
+        <div class="At-RightPanel">
+          <div class="container-fluid">
+            <div class="At-WelcomeTop">
+              <div class="d-flex justify-content-between">
+                <div class="">
+                  <h1 class="welcome">Invoices</h1>
+                  <p class="analytics">All recent invoices can be found below</p>
+                </div>
+                <div class="form-group">
+                  <button type="button" class="begintext" style="padding:10px 15px">
+                    <a href="#" class="btn begintext1"> + Add new invoice</a>
+                  </button>
+                </div>
+              </div>
+              <!--ROW-->
+              <div class="row">
+                <div class="total2 d-flex">
+                  <div class="d-flex">
+                    <h1 class="welcome"> $85,485.94</h1>
+                  </div>
+                  <div style="margin: 3rem;">
+                    <p class="conversion-text m-0">Total Received</p>
+                    <p class="showing" style="font-size: 17px;"><span style="color:#44D600;">+50</span> increase since
+                      last month</p>
+                  </div>
+                </div>
+                <!--TOTLAL-->
+                <div class="total1" style="width: 240px; height: 114px;">
+                  <div class="d-flex" style="position: relative; top: 3rem; margin-left: 7rem;">
+                    <div class="div" style="background-color: #FFA31A;"></div>
+                    <p class="conversion-text m-0 ml-2" style="opacity: 0.6; color: black;">Pending</p>
+                  </div>
+                  <h1 class="welcome" style="font-size:25px; margin-top: 3rem; margin-left: 5.25rem;">$12,594.33</h1>
+                </div>
+                <!--TOTLAL-->
+                <div class="total2" style="width: 240px; height: 114px;">
+                  <div class="d-flex" style="position: relative;top: 3rem; margin-left: 7rem;">
+                    <div class="div"></div>
+                    <p class="conversion-text m-0 ml-2" style="opacity: 0.6; color: black;">In Drafts</p>
+                  </div>
+                  <h1 class="welcome" style="font-size:25px; margin-top: 3rem; margin-left: 5.25rem;">$6,163.74</h1>
+                </div>
+                <!--table-projects-->
+                <div class="projects mt-4" style="height:632px;">
+                  <div class="conversion mt-4">
+                    <div class="d-flex justify-content-between">
+                      <div class="row conversion-text" style="margin-left: 20px; opacity: 0.5;">
+                        <span class="ti-search" id="search"></span>
+                        <p style="margin-left: 10px;"> for invoices ...</p>
+                      </div>
+                      <!--FROM-->
+                      <form class="form-inline At-FormLogin">
+                        <div class="At-SelectLang justify-content-end text-center mr-4">
+                          <select id="inputState" class="conversion-text" style="padding: 10px 15px 10px 15px; border-radius: 6px; border: 1px solid #CCCEDD;
+                            box-sizing: border-box;">
+                            <option selected>Show all</option>
+                            <option>Show all</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                    <!--ROW-->
+                    <div class="row justify-content-between" style="padding: 2.20rem;">
+                      <div class="mt-3">
+                        <img src="images/Rectangle 129.png" alt="box" width="20px" height="20px">
+                        <img src="images/Vector5.png" alt=""
+                          style="position: relative;color: red; font-weight: 700;font-size: 20px; background-color: #FFE7EB; padding: 10px; border-radius: 6px; top: 0.75rem; left: 1rem;">
+                      </div>
+                      <div class="dropdown">
+                        <button class="btn showing  dropdown-toggle" type="button" id="dropdownMenuButton"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Rows per page:<span style="color: black;"> 5</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                        <span class="showing">1-5 of 10</span>
+                        <span class="ti-angle-left"
+                          style="font-weight: 900; margin-right: 30px; margin-left: 10px;"></span>
+                        <span class="ti-angle-right"></span>
+                      </div>
+                    </div>
+                    <!--TABLE-->
+                    <table class="table mb-0">
+                      <thead class="url showing" style="font-size: 18px;">
+                        <tr>
+                          <th scope="col" style="padding: 2rem;">
+                            <p>
+                              <img src="images/Rectangle 129.png" alt="box" height="20px" width="20px"
+                                style="position: relative; top: 0.55rem; margin-right: 10px;">Date
+                            </p>
+                          </th>
+                          <th scope="col" style="padding: 2rem;">Client</th>
+                          <th scope="col" style="padding: 2rem;">Amount</th>
+                          <th scope="col" style="padding: 2rem;">Status</th>
+                          <th scope="col" style="padding: 2rem;">Actions</th>
+                        </tr>
+                      </thead>
+                      <!--TBODY-->
+                      <tbody>
+                        <tr>
+                          <!--ROW-->
+                          <th scope="row" class="showing" style="font-size: 17px;">
+                            <img src="images/Rectangle 129.png" alt="box" height="20px" width="20px"
+                              style="position: relative; top: 0.55rem; margin-right: 10px;">
+                            <span style="color: black; opacity: 0.9;">26 April 2021</span>
+                            <p style="margin-left: 35px;">Due in 6 days</p>
+                          </th>
+                          <!--ENDS-->
+                          <td>
+                            <div class="row">
+                              <img src="images/Ellipse 10.png" alt="piture">
+                              <p class="Makenna">Makenna Arcand</p>
+                            </div>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <p class="prograsspersent">$12,495.00</p>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <p class="complete" style="background-color: #FFF6E8; color: #FF9E00; width: 68%;">Pending
+                              Payment</p>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <span class="ti-pencil"
+                              style="color: blue; font-weight: 900; position: relative; left: 2rem; font-size: 20px;"></span>
+                            <span class="ti-trash"
+                              style="position: relative;color: red; left: 3rem; font-weight: 700;font-size: 20px;">
+                            </span>
+                          </td>
+                          <!--ENDS-->
+                        </tr>
+                        <tr>
+                          <!--ROW-->
+                          <th scope="row" class="showing" style="font-size: 17px;">
+                            <img src="images/Rectangle 129.png" alt="box" height="20px" width="20px"
+                              style="position: relative; top: 0.55rem; margin-right: 10px;">
+                            <span style="color: black; opacity: 0.9;">26 April 2021</span>
+                            <p style="margin-left: 35px;">Due in 6 days</p>
+                          </th>
+                          <td>
+                            <div class="row">
+                              <img src="images/Ellipse 10.png" alt="piture">
+                              <p class="Makenna">Makenna Arcand</p>
+                            </div>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <p class="prograsspersent">$12,495.00</p>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <p class="complete" style="background-color: #FFF6E8; color: #FF9E00;width: 68%;">Pending
+                              Payment
+                            </p>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <span class="ti-pencil"
+                              style="color: blue; font-weight: 900; position: relative; left: 2rem; font-size: 20px;"></span>
+                            <span class="ti-trash"
+                              style="position: relative;color: red; left: 3rem; font-weight: 700;font-size: 20px;">
+                            </span>
+                          </td>
+                          <!--ENDS-->
+                        </tr>
+                        <tr>
+                          <!--ROW-->
+                          <th scope="row" class="showing" style="font-size: 17px;">
+                            <img src="images/Rectangle 129.png" alt="box" height="20px" width="20px"
+                              style="position: relative; top: 0.55rem; margin-right: 10px;">
+                            <span style="color: black; opacity: 0.9;">26 April 2021</span>
+                            <p style="margin-left: 35px;">Due in 6 days</p>
+                          </th>
+                          <td>
+                            <div class="row">
+                              <img src="images/Ellipse 10.png" alt="piture">
+                              <p class="Makenna">Makenna Arcand</p>
+                            </div>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <p class="prograsspersent">$12,495.00</p>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <p class="complete" style="background-color: #FFF6E8; color: #FF9E00;width: 68%;">Pending
+                              Payment
+                            </p>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <span class="ti-pencil"
+                              style="color: blue; font-weight: 900; position: relative; left: 2rem; font-size: 20px;"></span>
+                            <span class="ti-trash"
+                              style="position: relative;color: red; left: 3rem; font-weight: 700;font-size: 20px;">
+                            </span>
+                          </td>
+                          <!--ENDS-->
+                        </tr>
+                        <tr>
+                          <!--ROW-->
+                          <th scope="row" class="showing" style="font-size: 17px;">
+                            <img src="images/Rectangle 129.png" alt="box" height="20px" width="20px"
+                              style="position: relative; top: 0.55rem; margin-right: 10px;">
+                            <span style="color: black; opacity: 0.9;">26 April 2021</span>
+                            <p style="margin-left: 35px;">Due in 6 days</p>
+                          </th>
+                          <td>
+                            <div class="row">
+                              <img src="images/Ellipse 10.png" alt="piture">
+                              <p class="Makenna">Makenna Arcand</p>
+                            </div>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <p class="prograsspersent">$12,495.00</p>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <p class="complete" style="background-color: #FFF6E8; color: #FF9E00;width: 68%;">Pending
+                              Payment
+                            </p>
+                          </td>
+                          <!--ENDS-->
+                          <td>
+                            <span class="ti-pencil"
+                              style="color: blue; font-weight: 900; position: relative; left: 2rem; font-size: 20px;"></span>
+                            <span class="ti-trash"
+                              style="position: relative;color: red; left: 3rem; font-weight: 700;font-size: 20px;">
+                            </span>
+                          </td>
+                          <!--ENDS-->
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!--TABLE-->
+                    <div class="row justify-content-between" style="padding: 1rem;">
+                      <div class="row mt-3">
+                        <span class="ti-angle-left"
+                          style="font-weight: 900;  margin-left: 5px; background-color: #E5F1FF; color: blue; padding: 10px; border-radius: 5px;">
+                        </span>
+                        <p class="Makenna">1-4 of 4</p>
+                        <span class="ti-angle-right"
+                          style="font-weight: 900; margin-right: 20px; margin-left: 10px; background-color: #E5F1FF; color: blue; padding: 10px; border-radius: 5px;">
+                        </span>
+                      </div>
+                      <!--DROPDOWN-->
+                      <div class="dropdown">
+                        <button class="btn showing  dropdown-toggle" type="button" id="dropdownMenuButton"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Rows per page:<span style="color: black;"> 5</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                        <span class="showing">1-5 of 10</span>
+                        <span class="ti-angle-left"
+                          style="font-weight: 900; margin-right: 20px; margin-left: 10px;"></span>
+                        <span class="ti-angle-right" style="margin-right: 10px;"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--AT SECTION ENDS-->
+    </div>
+    <!--content Page-->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
